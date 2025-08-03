@@ -163,7 +163,7 @@ a {
 .dropdown-item.active,
 .dropdown-item:active {
   --bs-dropdown-link-active-color: var(--bs-light);
-  --bs-dropdown-link-active-bg: var(--bs-black);
+  --bs-dropdown-link-active-bg:#00000040;
 }
 
 /* list group */
