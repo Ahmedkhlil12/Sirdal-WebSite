@@ -70,4 +70,6 @@ Magnific Lightbox - https://github.com/dimsemenov/Magnific-Popup
 
 Thanks for downloading from TemplatesJungle.com !
 
+wa.link/p75u81
+
 
