@@ -43,7 +43,7 @@ body {
   --bs-black: #111;
   --bs-light: #F1F1F0;
   --bs-dark: #212529;
-  --bs-gray: #9aa1a7;
+  --bs-gray: #758da1;
   --bs-gray-dark: #51565b;
 
   --bs-primary-rgb: 140, 144, 126;
@@ -61,6 +61,8 @@ body {
 .category-headerbvee{
   margin:20px ;
 }
+
+
 body {
   letter-spacing: 0.03rem;
 }
@@ -318,6 +320,7 @@ a {
 [data-bs-theme=dark] .bg-white,
 [data-bs-theme=dark] .bg-light {
   --bs-bg-opacity: 0.1;
+      background-color: rgb(171, 61, 255);
 }
 
 /* end of Bootstrap Color Theme */
@@ -1628,7 +1631,7 @@ a.btn-link.text-light:after {
   transition: transform .3s ease-out;
 }
 .container{
-padding: 60px   ;
+padding: 20px   ;
 }
  .navbar-nav .dropdown-menu {
       border: none;
