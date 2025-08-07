@@ -290,8 +290,7 @@
             </div>
           </div>
         </div>
-
-        <div class="col-3 col-lg-auto">
+           <div class="col-3 col-lg-auto">
           <ul class="list-unstyled d-flex m-0">
          
             <li class="d-lg-none">
@@ -322,7 +321,153 @@
       </div>
 
     </div>
-  </nav>
+    </nav>
+<!-- Partners/Supporters Logo Bar -->
+<section class="partners-bar bg-light py-3">
+  <div class="container">
+    <h5 class="text-center mb-4 text-uppercase">Our Trusted Partners</h5>
+    <div class="swiper partners-swiper">
+      <div class="swiper-wrapper align-items-center">
+        <!-- Partner 1 -->
+        <div class="swiper-slide">
+          <img src="images/t1.jpg" alt="Partner 1" class="img-fluid" style="max-height: 60px;">
+        </div>
+        <!-- Partner 2 -->
+        <div class="swiper-slide">
+          <img src="images/t2jpg.jpg" alt="Partner 2" class="img-fluid" style="max-height: 60px;">
+        </div>
+        <!-- Partner 3 -->
+        <div class="swiper-slide">
+          <img src="images/t3.jpg" alt="Partner 3" class="img-fluid" style="max-height: 60px;">
+        </div>
+        <!-- Partner 4 -->
+        <div class="swiper-slide">
+          <img src="images/t4.jpg" alt="Partner 4" class="img-fluid" style="max-height: 60px;">
+        </div>
+        <!-- Partner 5 -->
+        <div class="swiper-slide">
+          <img src="images/t5.jpg" alt="Partner 5" class="img-fluid" style="max-height: 60px;">
+        </div>
+        <!-- Partner 6 -->
+        <div class="swiper-slide">
+          <img src="images/t6.jpg" alt="Partner 6" class="img-fluid" style="max-height: 60px;">
+        </div>
+        <!-- Partner 7 -->
+        <div class="swiper-slide">
+          <img src="images/t7.jpg" alt="Partner 7" class="img-fluid" style="max-height: 60px;">
+        </div>
+        <!-- Partner 8 -->
+        <div class="swiper-slide">
+          <img src="images/t8.jpg" alt="Partner 8" class="img-fluid" style="max-height: 60px;">
+        </div>
+        <!-- Partner 9 -->
+        <div class="swiper-slide">
+          <img src="images/t9.jpg" alt="Partner 9" class="img-fluid" style="max-height: 60px;">
+        </div>
+        <!-- Partner 10 -->
+        <div class="swiper-slide">
+          <img src="images/t10.jpg" alt="Partner 10" class="img-fluid" style="max-height: 60px;">
+        </div>
+        <!-- Partner 11 -->
+        <div class="swiper-slide">
+          <img src="images/t11.jpg" alt="Partner 11" class="img-fluid" style="max-height: 60px;">
+        </div>
+        <!-- Partner 12 -->
+        <div class="swiper-slide">
+          <img src="images/t12.jpg" alt="Partner 12" class="img-fluid" style="max-height: 60px;">
+        </div>
+        <!-- Partner 13 -->
+        <div class="swiper-slide">
+          <img src="images/t13.jpg" alt="Partner 13" class="img-fluid" style="max-height: 60px;">
+        </div>
+        <!-- Partner 14 -->
+        <div class="swiper-slide">
+          <img src="images/t14.jpg" alt="Partner 14" class="img-fluid" style="max-height: 60px;">
+        </div>
+        <!-- Partner 15 -->
+        <div class="swiper-slide">
+          <img src="images/t15.jpg" alt="Partner 15" class="img-fluid" style="max-height: 60px;">
+        </div>
+        <!-- Partner 16 -->
+        <div class="swiper-slide">
+          <img src="images/t16.jpg" alt="Partner 16" class="img-fluid" style="max-height: 60px;">
+        </div>
+        <!-- Partner 17 -->
+        <div class="swiper-slide">
+          <img src="images/t17.jpg" alt="Partner 17" class="img-fluid" style="max-height: 60px;">
+        </div>
+        <!-- Partner 18 -->
+        <div class="swiper-slide">
+          <img src="images/t18.jpg" alt="Partner 18" class="img-fluid" style="max-height: 60px;">
+        </div>
+        <!-- Partner 19 -->
+        <div class="swiper-slide">
+          <img src="images/t19.jpg" alt="Partner 19" class="img-fluid" style="max-height: 60px;">
+        </div>
+        <!-- Partner 20 -->
+        <div class="swiper-slide">
+          <img src="images/t20.jpg" alt="Partner 20" class="img-fluid" style="max-height: 60px;">
+        </div>
+        <!-- Partner 21 -->
+        <div class="swiper-slide">
+          <img src="images/t21.jpg" alt="Partner 21" class="img-fluid" style="max-height: 60px;">
+        </div>
+       
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Add this CSS to your style.css file -->
+<style>
+  .partners-bar {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+  }
+  .partners-swiper {
+    padding: 10px 0;
+  }
+  .partners-swiper .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    filter: grayscale(10%);
+    transition: filter 0.3s ease;
+  }
+  .partners-swiper .swiper-slide:hover {
+    filter: grayscale(0%);
+  }
+</style>
+
+<!-- Add this JavaScript to initialize the swiper -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const partnersSwiper = new Swiper('.partners-swiper', {
+      slidesPerView: 2,
+      spaceBetween: 20,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      loop: true,
+      breakpoints: {
+        640: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 30,
+        },
+        1024: {
+          slidesPerView: 6,
+          spaceBetween: 30,
+        },
+      }
+    });
+  });
+</script>
 
   <section id="billboard" class="bg-light py-5">
     <div class="container">
@@ -627,7 +772,7 @@
           <div class="footer-menu footer-menu-001">
             <div class="footer-intro mb-4" >
               <a href="index.html">
-                <img src="images/logo.jpg" alt="logo" width="150px">
+                <img src="images/logo.png" alt="logo" width="150px" >
               </a>
             </div>
             
